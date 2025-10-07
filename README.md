@@ -28,3 +28,11 @@ Aplicação web desenvolvida com **React.js** que permite aos usuários pesquisa
 - API: [ViaCEP](https://viacep.com.br/)
 
 ---
+
+Preview da Aplicação:
+-Antes da pesquisa de CEP
+<img width="991" height="478" alt="image" src="https://github.com/user-attachments/assets/6ac821e0-ccea-4a86-b6df-517f9f89d534" />
+
+-Depois da pesquisa de CEP
+<img width="862" height="697" alt="image" src="https://github.com/user-attachments/assets/e088cc8e-a840-4e41-9a51-f3809e25a2ff" />
+
