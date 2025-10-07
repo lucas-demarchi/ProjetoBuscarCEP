@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ProjetoBuscarCEP/static/css/main.bd599afa.css",
+    "main.js": "/ProjetoBuscarCEP/static/js/main.f050033e.js",
+    "static/media/logotipoBR.jpg": "/ProjetoBuscarCEP/static/media/logotipoBR.824a48d91488e7b22d0e.jpg",
+    "index.html": "/ProjetoBuscarCEP/index.html",
+    "main.bd599afa.css.map": "/ProjetoBuscarCEP/static/css/main.bd599afa.css.map",
+    "main.f050033e.js.map": "/ProjetoBuscarCEP/static/js/main.f050033e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd599afa.css",
+    "static/js/main.f050033e.js"
+  ]
+}
