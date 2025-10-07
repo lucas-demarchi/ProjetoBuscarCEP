@@ -1,0 +1,145 @@
+:root{
+
+  --cor-preto: #000000;
+  --cor-branco: #ffffff;
+  --cor-purple: #4a0067;
+  --cor-purple-pink: #8000b2;
+  --cor-verde: #008000;
+  --cor-verde-dark: #004600;
+  --cor-amarelo: #ffec00;
+
+  --font-tahoma: Tahoma;
+
+}
+
+/* 1 rem = 16 pixels. */
+
+body{
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font-family: Tahoma;
+  background-color: #3d3d3d;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1, h2, h3{
+  margin: 0px;
+}
+
+.container{
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  margin: 1rem 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 1px 3px 8px var(--cor-preto);
+}
+
+.boxPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topTitle{
+  text-align: center;
+}
+
+
+.boxForm{
+  display: flex;
+}
+
+.boxForm input{
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.btnPesquisar{
+  width: 32px;
+  height: 32px;
+  padding-top: 5px;
+  margin-left: 0.4rem;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--cor-verde);
+  color: var(--cor-branco);
+  cursor: pointer;
+}
+
+.btnPesquisar:hover{
+  background-color: var(--cor-verde-dark);
+}
+
+.end{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.end span{
+  font-size: 0.7rem;
+}
+
+.logotipoBR{
+  width: 170px;
+}
+
+.bodyResult{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #006d00;
+  color: var(--cor-branco);
+  border-radius: 6px;
+  padding: 1.2rem;
+  margin-bottom: 1.4rem;
+}
+
+@media screen and (max-width: 400px) {
+  .container{
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 1px 3px 8px var(--cor-preto);
+  }
+
+  .boxForm{
+    width: 70%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .bodyResult{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    background-color: #006d00;
+    color: var(--cor-branco);
+    border-radius: 6px;
+    padding: 0.7rem;
+    margin-bottom: 1.4rem;
+  }
+}
